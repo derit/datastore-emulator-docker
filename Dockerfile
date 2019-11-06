@@ -12,6 +12,6 @@ RUN apk add --update --no-cache openjdk8-jre &&\
 
 COPY start-datastore .
 
-EXPOSE 8080
+EXPOSE 8081
 
 ENTRYPOINT ["./start-datastore"]
